@@ -1,0 +1,21 @@
+library IEEE;
+
+use IEEE.std_logic_1164.all;
+
+entity BinTo7Seg is
+	port(
+		b3, b2, b1, b0			: in std_logic; 	-- Binary Inputs
+		a, b, c, d, e, f, g	: out std_logic;  -- 7 Segment Output
+	);
+end entity BinTo7Seg;
+
+
+architecture BinTo7Seg_arch of BinTo7Seg is
+begin
+
+	p_BinTo7Seg: process(b3, b2, b1, b0)
+	begin
+		
+	end process p_BinTo7Seg;
+
+end architecture BinTo7Seg_arch;

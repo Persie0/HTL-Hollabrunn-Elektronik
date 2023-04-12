@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/marvi/OneDrive/Dokumente/3BHEL/DIC/3BHEL_Perzi_ColaAutomatVHDLOnly/ColaAutomat - Copy
+Ecolaautomat
+Z1 w1611783010
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8ColaAutomat.vhd
+Z5 FColaAutomat.vhd
+l0
+L9 1
+Vdd:]BY]mOOQFGgEACNaCX1
+!s100 ZP;fACmNAH^zL[b0m_Q=R0
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1613224361
+!i10b 1
+Z8 !s108 1613224361.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|ColaAutomat.vhd|
+Z10 !s107 ColaAutomat.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Acolaautomat_arch
+R2
+R3
+DEx4 work 11 colaautomat 0 22 dd:]BY]mOOQFGgEACNaCX1
+!i122 0
+l30
+L20 64
+Vf7n==APObWR:TE@mH7@lc2
+!s100 ?;d1jmVZLkVUJ4=g[`h763
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_colaautomat
+Z13 w1611783847
+R2
+R3
+!i122 1
+R0
+Z14 8tb_ColaAutomat.vhd
+Z15 Ftb_ColaAutomat.vhd
+l0
+L11 1
+VEEai_ANG4@V>l>YH_<@@X0
+!s100 ;GV7S1iiZIjdi1WJU069^2
+R6
+31
+Z16 !s110 1613224362
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|tb_ColaAutomat.vhd|
+!s107 tb_ColaAutomat.vhd|
+!i113 1
+R11
+R12
+Acolaautomat_arch
+R2
+R3
+DEx4 work 14 tb_colaautomat 0 22 EEai_ANG4@V>l>YH_<@@X0
+!i122 1
+l31
+L13 80
+VBUkoA;X3Nj3zn2m49z[Q51
+!s100 F:AnLJKQAIZjmjTE3<NU;0
+R6
+31
+R16
+!i10b 1
+R8
+R17
+Z18 !s107 tb_ColaAutomat.vhd|
+!i113 1
+R11
+R12

@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:300,700);
+html, body {
+  background: #fefefe;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  font-family: "Oxygen", san-serif; }
+
+.head-title {
+  width: 50%;
+  height: 100px;
+  text-align: center;
+  margin: 0 25%;
+  border-bottom: 1px solid #594083;
+  display: block; }
+  .head-title .title-page {
+    color: #594083;
+    font-weight: 700; }
+  .head-title .subtitle {
+    color: #594083; }
+    .head-title .subtitle a {
+      color: #594083;
+      transition: .3s linear; }
+      .head-title .subtitle a:hover {
+        color: #F5A623;
+        text-decoration: none; }
+
+.sp{
+	width: 250px;
+    height: 350px;
+	margin: 1% 1.5%;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+}
+
+.container {
+  width: 850px;
+  height: 400px;
+  margin: 5% auto; }
+  .container .table-price {
+    background: #F3F2F6;
+    width: 250px;
+    height: 350px;
+    margin: 1% 1.5%;
+    border-radius: 10px;
+    float: left;
+    position: relative;
+    box-shadow: 0px 0px 10px #594083;
+    transition: .3s ease-in-out;
+    cursor: pointer; }
+    .container .table-price:hover {
+      box-shadow: 5px 5px 5px #594083; }
+    .container .table-price .pic-item {
+      width: 100%;
+      height: 60%;
+      position: relative; }
+      .container .table-price .pic-item img {
+        width: 100%;
+        height: 100%; }
+      .container .table-price .pic-item svg {
+        fill: #594083;
+        margin: 5% 50px; }
+    .container .table-price .best-choice {
+      background: #F5A623;
+      width: 50%;
+      height: 25px;
+      font-family: "Oxygen", san-serif;
+      font-size: .9em;
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.8;
+      text-transform: uppercase;
+      color: #F3F2F6;
+      margin: 0 25%;
+      top: 56%;
+      border-radius: 10px;
+      position: absolute;
+      z-index: 99; }
+    .container .table-price .description {
+      background: #594083;
+      width: 100%;
+      height: 40%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      position: relative; }
+      .container .table-price .description .title {
+        width: 100%;
+        font-family: 'Oxygen', sans-serif;
+        font-size: 1.5em;
+        font-weight: 700;
+        text-align: center;
+        color: #F3F2F6;
+        text-transform: uppercase;
+        top: 10%;
+        display: block;
+        position: absolute; }
+      .container .table-price .description .price {
+        width: 100%;
+        font-family: 'Oxygen', sans-serif;
+        font-size: 1.5em;
+        font-weight: 300;
+        text-align: center;
+        color: #966CDA;
+        top: 50%;
+        display: block;
+        position: absolute; }
+  .container .selected {
+    height: 400px;
+    top: -25px; }

@@ -1,0 +1,15 @@
+Aufträge von Arbeiter x
+select Logo.standort, Deadline, Typ, Art, Erledigt
+from logo join auftrag on logo.id = auftrag.logoid join arbeiter on auftrag.arbeiterid = arbeiter.id where arbeiter.id = '2';
+
+Aufträge von Kunde x
+select Preis, Art, Erstelldatum, Deadline, Standort, Erledigt
+from logo join auftrag on logo.id = auftrag.logoid join kunde on auftrag.kundeid = kunde.id where kunde.id = '2' order by deadline;
+
+Arbeiter der für Auftrag von Kunde x zuständig ist
+select Logo.standort, Arbeiter.vorname as 'Arbeitervorname', Arbeiter.nachname as 'Arbeiternachname', Arbeiter.telefonnummer as 'Arbeitertelefonummer'
+from logo join auftrag on logo.id = auftrag.logoid join kunde on auftrag.kundeid = kunde.id join arbeiter on auftrag.arbeiterid = arbeiter.id where kunde.id = '2';
+
+Ausstehende Aufträge
+select Preis, Erstelldatum, Deadline, Art, Erledigt, Standort from auftrag join logo on
+logo.id = auftrag.logoid where erledigt = 'N' order by Deadline;
