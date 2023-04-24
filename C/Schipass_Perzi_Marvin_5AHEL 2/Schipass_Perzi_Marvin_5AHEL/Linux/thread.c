@@ -58,7 +58,7 @@ void save_weather_data(char *weather_data, char *location)
     char query[MAXLINE];
     MYSQL *mysql;
     mysql = mysql_init(NULL);
-    if (!mysql_real_connect(mysql, "localhost", "root", "Fussball10!",
+    if (!mysql_real_connect(mysql, "localhost", "root", "pw",
         NULL, 0, NULL, 0)) {
         fprintf(stderr, "%s\n", mysql_error(mysql));
         exit(1);
@@ -85,7 +85,7 @@ void save_uuid(char *uuid)
     MYSQL *mysql;
 
     mysql = mysql_init(NULL);
-    if (!mysql_real_connect(mysql, "localhost", "root", "Fussball10!",
+    if (!mysql_real_connect(mysql, "localhost", "root", "pw",
         NULL, 0, NULL, 0)) {
         fprintf(stderr, "%s\n", mysql_error(mysql));
         exit(1);
