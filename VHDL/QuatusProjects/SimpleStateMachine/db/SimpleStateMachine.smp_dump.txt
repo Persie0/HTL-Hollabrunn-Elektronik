@@ -1,0 +1,6 @@
+
+State Machine - |SimpleStateMachine|curState
+Name curState.sLEFT curState.sDRIVE curState.sSTOP 
+curState.sSTOP 0 0 0 
+curState.sDRIVE 0 1 1 
+curState.sLEFT 1 0 1 

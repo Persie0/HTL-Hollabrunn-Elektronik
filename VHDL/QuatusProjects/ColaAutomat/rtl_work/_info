@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/run/media/persie/Data/C.Doc/3BHEL/DIC/ColaAutomat
+Ecolaautomat
+Z1 w1606122372
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8ColaAutomat.vhd
+Z5 FColaAutomat.vhd
+l0
+Z6 L25 1
+V_d16Ll]CjfJL;?ji^mWd11
+!s100 UY<N5lGPRJ319N^aAo=4L1
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1614193166
+!i10b 1
+Z9 !s108 1614193166.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|ColaAutomat.vhd|
+Z11 !s107 ColaAutomat.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abdf_type
+R2
+R3
+DEx4 work 11 colaautomat 0 22 _d16Ll]CjfJL;?ji^mWd11
+!i122 0
+l56
+L36 65
+V2LTaV3OSOkSVNlNnQ<X]W3
+!s100 zLFHz;1D8cU5@3Ql5<`9m0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ensl
+Z14 w1606122374
+R2
+R3
+!i122 2
+R0
+Z15 8NSL.vhd
+Z16 FNSL.vhd
+l0
+R6
+V:LBHK75=c@GHiLVBMQVHU1
+!s100 T02HoUoffg==DZM1BeM?B0
+R7
+31
+Z17 !s110 1614193167
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|NSL.vhd|
+!s107 NSL.vhd|
+!i113 1
+R12
+R13
+Abdf_type
+R2
+R3
+DEx4 work 3 nsl 0 22 :LBHK75=c@GHiLVBMQVHU1
+!i122 2
+l60
+L37 103
+V[MJ`gQ3>^@U3a^^5bA`WV0
+!s100 >dKX9=;[Y>JWJ42Yd5igL0
+R7
+31
+R17
+!i10b 1
+R9
+R18
+Z19 !s107 NSL.vhd|
+!i113 1
+R12
+R13
+Etb_colaautomat
+Z20 w1606123062
+R2
+R3
+!i122 1
+R0
+Z21 8tb_ColaAutomat.vhd
+Z22 Ftb_ColaAutomat.vhd
+l0
+L11 1
+VEEai_ANG4@V>l>YH_<@@X0
+!s100 ;GV7S1iiZIjdi1WJU069^2
+R7
+31
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-93|-work|work|tb_ColaAutomat.vhd|
+Z24 !s107 tb_ColaAutomat.vhd|
+!i113 1
+R12
+R13
+Acolaautomat_arch
+R2
+R3
+DEx4 work 14 tb_colaautomat 0 22 EEai_ANG4@V>l>YH_<@@X0
+!i122 1
+l31
+L13 79
+VKbc:cZcS:Sl84Z7Azo5J50
+!s100 l]IVk^L=G_9la3:]m``CK2
+R7
+31
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13

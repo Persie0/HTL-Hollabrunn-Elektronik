@@ -1,0 +1,60 @@
+|RippleCarryAdder
+SUM0 <= FullAdder:inst.SUM
+A0 => FullAdder:inst.A
+B0 => FullAdder:inst.B
+SUM1 <= FullAdder:inst2.SUM
+A1 => FullAdder:inst2.A
+B1 => FullAdder:inst2.B
+SUM2 <= FullAdder:inst3.SUM
+A2 => FullAdder:inst3.A
+B2 => FullAdder:inst3.B
+SUM3 <= FullAdder:inst4.SUM
+A3 => FullAdder:inst4.A
+B3 => FullAdder:inst4.B
+CO <= FullAdder:inst4.CO
+
+
+|RippleCarryAdder|FullAdder:inst
+CI => R.IN1
+CI => SUM.IN1
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RippleCarryAdder|FullAdder:inst2
+CI => R.IN1
+CI => SUM.IN1
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RippleCarryAdder|FullAdder:inst3
+CI => R.IN1
+CI => SUM.IN1
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RippleCarryAdder|FullAdder:inst4
+CI => R.IN1
+CI => SUM.IN1
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+

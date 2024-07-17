@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/persie/QuatusProjects/FasterWins
+Efasterwins
+Z1 w1619601206
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z4 8FasterWins.vhd
+Z5 FFasterWins.vhd
+l0
+L25 1
+VO7Q0=Lgo]AnlzG[oKoNfo3
+!s100 Qj@OnU=9RW=LRL5YaNYzd3
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1619601586
+!i10b 1
+Z8 !s108 1619601586.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|FasterWins.vhd|
+Z10 !s107 FasterWins.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abdf_type
+R2
+R3
+DEx4 work 10 fasterwins 0 22 O7Q0=Lgo]AnlzG[oKoNfo3
+!i122 1
+l60
+L36 55
+V=z:EjCGkVOA=Kj8G17Rgh1
+!s100 hLi_d6=1Q`^<eT=M3NEkG3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efasterwins_vhd_tst
+Z13 w1619600526
+R2
+R3
+!i122 0
+R0
+Z14 8tb_FasterWins.vhd
+Z15 Ftb_FasterWins.vhd
+l0
+L6 1
+V6m[=GOChDdY1[2HlAFHhB0
+!s100 <2a7N`ejzRF4InjTDSYlN1
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|tb_FasterWins.vhd|
+Z17 !s107 tb_FasterWins.vhd|
+!i113 1
+R11
+R12
+Afasterwins_arch
+R2
+R3
+DEx4 work 18 fasterwins_vhd_tst 0 22 6m[=GOChDdY1[2HlAFHhB0
+!i122 0
+l25
+L8 113
+V?BLG42U]nRUYaR]0g7`R^3
+!s100 dO:dm=Mom@VJ;NO4zjTMQ3
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Egamelogic
+Z18 w1619598478
+R2
+R3
+!i122 2
+R0
+Z19 8GameLogic.vhd
+Z20 FGameLogic.vhd
+l0
+L7 1
+VPTOiQLhgAJjM[[_oDYElL0
+!s100 7WTUYVANZ_9`5g:i3LPUU2
+R6
+31
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-93|-work|work|GameLogic.vhd|
+!s107 GameLogic.vhd|
+!i113 1
+R11
+R12
+Agamelogic_arch
+R2
+R3
+DEx4 work 9 gamelogic 0 22 PTOiQLhgAJjM[[_oDYElL0
+!i122 2
+l20
+L17 28
+V6l6_KbFmlkYQg;lZ@zz^G0
+!s100 encW2?]CPK;S5>L2MigP80
+R6
+31
+R7
+!i10b 1
+R8
+R21
+Z22 !s107 GameLogic.vhd|
+!i113 1
+R11
+R12

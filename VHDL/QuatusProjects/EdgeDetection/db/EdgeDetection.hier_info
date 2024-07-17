@@ -1,0 +1,10 @@
+|EdgeDetection
+CLk => process_0.IN0
+CLk => process_0.IN0
+nRES => pulseOut.IN1
+nRES => pulseOut.OUTPUTSELECT
+sigIn => process_0.IN1
+sigIn => process_0.IN1
+pulseOut <= pulseOut$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

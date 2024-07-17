@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Wed Apr 28 11:19:23 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : FasterWins
+Top-level Entity Name : FasterWins
+Family : MAX 10
+Total logic elements : 23
+    Total combinational functions : 19
+    Dedicated logic registers : 13
+Total registers : 13
+Total pins : 12
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

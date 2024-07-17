@@ -1,0 +1,18 @@
+Fitter Status : Successful - Wed Apr 28 11:19:37 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : FasterWins
+Top-level Entity Name : FasterWins
+Family : MAX 10
+Device : 10M16SAU169C8G
+Timing Models : Final
+Total logic elements : 23 / 15,840 ( < 1 % )
+    Total combinational functions : 20 / 15,840 ( < 1 % )
+    Dedicated logic registers : 13 / 15,840 ( < 1 % )
+Total registers : 13
+Total pins : 12 / 130 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 0 / 562,176 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 90 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )

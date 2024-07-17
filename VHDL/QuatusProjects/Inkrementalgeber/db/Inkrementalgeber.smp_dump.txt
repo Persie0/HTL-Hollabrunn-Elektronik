@@ -1,0 +1,10 @@
+
+State Machine - |Inkrementalgeber|curState
+Name curState.sTL curState.sL2 curState.sL1 curState.sTR curState.sR2 curState.sR1 curState.sIdle 
+curState.sIdle 0 0 0 0 0 0 0 
+curState.sR1 0 0 0 0 0 1 1 
+curState.sR2 0 0 0 0 1 0 1 
+curState.sTR 0 0 0 1 0 0 1 
+curState.sL1 0 0 1 0 0 0 1 
+curState.sL2 0 1 0 0 0 0 1 
+curState.sTL 1 0 0 0 0 0 1 

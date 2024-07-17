@@ -1,0 +1,82 @@
+|RotaryLauflicht
+LED[0] <= LedLogic:inst2.LED[0]
+LED[1] <= LedLogic:inst2.LED[1]
+LED[2] <= LedLogic:inst2.LED[2]
+LED[3] <= LedLogic:inst2.LED[3]
+LED[4] <= LedLogic:inst2.LED[4]
+LED[5] <= LedLogic:inst2.LED[5]
+LED[6] <= LedLogic:inst2.LED[6]
+LED[7] <= LedLogic:inst2.LED[7]
+CLK12M => Inkrementalgeber:inst.CLK
+CLK12M => SyncChain:inst4.CLK
+CLK12M => SyncChain:inst3.CLK
+CLK12M => LedLogic:inst2.CLK
+ROT_BTN => inst1.IN0
+ROT_A => SyncChain:inst4.D
+ROT_B => SyncChain:inst3.D
+
+
+|RotaryLauflicht|LedLogic:inst2
+L => p_logic.IN0
+L => p_logic.IN1
+R => p_logic.IN1
+R => p_logic.IN1
+CLK => LED_temp[0].CLK
+CLK => LED_temp[1].CLK
+CLK => LED_temp[2].CLK
+CLK => LED_temp[3].CLK
+CLK => LED_temp[4].CLK
+CLK => LED_temp[5].CLK
+CLK => LED_temp[6].CLK
+CLK => LED_temp[7].CLK
+nRES => LED_temp[0].ACLR
+nRES => LED_temp[1].ACLR
+nRES => LED_temp[2].ACLR
+nRES => LED_temp[3].ACLR
+nRES => LED_temp[4].ACLR
+nRES => LED_temp[5].ACLR
+nRES => LED_temp[6].ACLR
+nRES => LED_temp[7].PRESET
+LED[0] <= LED_temp[0].DB_MAX_OUTPUT_PORT_TYPE
+LED[1] <= LED_temp[1].DB_MAX_OUTPUT_PORT_TYPE
+LED[2] <= LED_temp[2].DB_MAX_OUTPUT_PORT_TYPE
+LED[3] <= LED_temp[3].DB_MAX_OUTPUT_PORT_TYPE
+LED[4] <= LED_temp[4].DB_MAX_OUTPUT_PORT_TYPE
+LED[5] <= LED_temp[5].DB_MAX_OUTPUT_PORT_TYPE
+LED[6] <= LED_temp[6].DB_MAX_OUTPUT_PORT_TYPE
+LED[7] <= LED_temp[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RotaryLauflicht|Inkrementalgeber:inst
+CLK => curState~1.DATAIN
+nRES => curState~3.DATAIN
+A => p_nextstate.IN0
+A => p_nextstate.IN0
+A => p_nextstate.IN0
+A => p_nextstate.IN0
+B => p_nextstate.IN1
+B => p_nextstate.IN1
+B => p_nextstate.IN1
+B => p_nextstate.IN1
+TL <= TL.DB_MAX_OUTPUT_PORT_TYPE
+TR <= TR.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RotaryLauflicht|SyncChain:inst4
+Q <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+nRes => inst4.ACLR
+nRes => inst3.ACLR
+CLK => inst4.CLK
+CLK => inst3.CLK
+D => inst3.DATAIN
+
+
+|RotaryLauflicht|SyncChain:inst3
+Q <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+nRes => inst4.ACLR
+nRes => inst3.ACLR
+CLK => inst4.CLK
+CLK => inst3.CLK
+D => inst3.DATAIN
+
+

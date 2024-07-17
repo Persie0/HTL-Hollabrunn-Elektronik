@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/marvi/OneDrive/Dokumente/3BHEL/DIC/SimpleStateMachine
+Esimplestatemachine
+Z1 w1611137482
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8SimpleStateMachine.vhd
+Z5 FSimpleStateMachine.vhd
+l0
+L11 1
+VHO5YN;<l41^J<?Q3E;gih3
+!s100 8651b;FhIT2PLdgSefzfD0
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1611738741
+!i10b 1
+Z8 !s108 1611738740.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|SimpleStateMachine.vhd|
+Z10 !s107 SimpleStateMachine.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Asimplestatemachine_arch
+R2
+R3
+DEx4 work 18 simplestatemachine 0 22 HO5YN;<l41^J<?Q3E;gih3
+!i122 0
+l30
+L21 65
+VYE?3T9h3gPF2AiV5AYz8o0
+!s100 @KSBoS7:19:g<J1JAU=1V2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_simplestatemachine
+Z13 w1611138149
+R2
+R3
+!i122 1
+R0
+Z14 8tb_SimpleStateMachine.vhd
+Z15 Ftb_SimpleStateMachine.vhd
+l0
+L9 1
+VSR3KzAoA>11leCWDf@De;0
+!s100 [g`?66Z^c;d7kjSkbaTc42
+R6
+31
+R7
+!i10b 1
+Z16 !s108 1611738741.000000
+Z17 !s90 -reportprogress|300|-93|-work|work|tb_SimpleStateMachine.vhd|
+!s107 tb_SimpleStateMachine.vhd|
+!i113 1
+R11
+R12
+Atb_simplestatemachine_arch
+R2
+R3
+DEx4 work 21 tb_simplestatemachine 0 22 SR3KzAoA>11leCWDf@De;0
+!i122 1
+l29
+L12 59
+VI]PXCWiZgzn<z0iJlog6_1
+!s100 A;PZMZ3:iNTED_b^j^]QS0
+R6
+31
+R7
+!i10b 1
+R16
+R17
+Z18 !s107 tb_SimpleStateMachine.vhd|
+!i113 1
+R11
+R12

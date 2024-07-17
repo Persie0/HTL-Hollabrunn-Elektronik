@@ -1,0 +1,29 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "WHEEL_L",
+					"strict" : false
+				},
+				{
+					"name" : "WHEEL_R",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "nRES",
+					"strict" : false
+				},
+				{
+					"name" : "S",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

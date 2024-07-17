@@ -1,0 +1,25 @@
+|DLatchVSDFF
+QL <= D_Latch:inst6.QL
+D => D_Latch:inst6.D
+D => D_FF:inst.D
+Reset => D_Latch:inst6.nRes
+Reset => D_FF:inst.nRes
+EN_CLK => D_Latch:inst6.EN
+EN_CLK => D_FF:inst.CLK
+QFF <= D_FF:inst.QFF
+
+
+|DLatchVSDFF|D_Latch:inst6
+D => QL$latch.DATAIN
+nRes => QL$latch.ACLR
+EN => QL$latch.LATCH_ENABLE
+QL <= QL$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DLatchVSDFF|D_FF:inst
+D => QFF~reg0.DATAIN
+nRes => QFF~reg0.ACLR
+CLK => QFF~reg0.CLK
+QFF <= QFF~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

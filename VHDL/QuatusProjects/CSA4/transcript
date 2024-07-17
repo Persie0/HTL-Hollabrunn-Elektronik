@@ -1,0 +1,119 @@
+# do tb_CSA4.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# Name of test bench entity
+# set TestBench "tb_CSA4"
+# tb_CSA4
+# 
+# Add 
+# vcom -93 -work work {CSA4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:14:52 on May 26,2021
+# vcom -reportprogress 300 -93 -work work CSA4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CSA4
+# -- Compiling architecture bdf_type of CSA4
+# End time: 11:14:52 on May 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {RippleCarryAdder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:14:52 on May 26,2021
+# vcom -reportprogress 300 -93 -work work RippleCarryAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture bdf_type of RippleCarryAdder
+# End time: 11:14:52 on May 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {FullAdder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:14:52 on May 26,2021
+# vcom -reportprogress 300 -93 -work work FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture FullAdder_arch of FullAdder
+# End time: 11:14:52 on May 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {Mux2to1_4Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:14:52 on May 26,2021
+# vcom -reportprogress 300 -93 -work work Mux2to1_4Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2to1_4Bit
+# -- Compiling architecture arch_Mux2to1_4Bit of Mux2to1_4Bit
+# End time: 11:14:53 on May 26,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {tb_CSA4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:14:53 on May 26,2021
+# vcom -reportprogress 300 -93 -work work tb_CSA4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_CSA4
+# -- Compiling architecture CSA4_arch of tb_CSA4
+# End time: 11:14:53 on May 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {Mux2to1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:14:53 on May 26,2021
+# vcom -reportprogress 300 -93 -work work Mux2to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2to1
+# -- Compiling architecture arch_Mux2to1 of Mux2to1
+# End time: 11:14:53 on May 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  $TestBench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_CSA4 
+# Start time: 11:14:53 on May 26,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_csa4(csa4_arch)
+# Loading work.csa4(bdf_type)
+# Loading work.ripplecarryadder(bdf_type)
+# Loading work.fulladder(fulladder_arch)
+# L# Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# Unable to lock# 
+#add wave *
+# add wave -label "A" A
+# Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# Unable to lock WLF file "vsim.wlf".# 
+# <EOF>
+# End time: 11:33:09 on May 26,2021, Elapsed time: 1:04:58
+# Errors: 0, Warnings: 0
+Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: persie  Hostname: x503vd  ProcessID: 19250
+#           Attempting to use alternate WLF file "./wlftqFFm8E".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqFFm8E
+# add wave -label "B" B
+# add wave -label "SUM" SUM
+# add wave -label "CO" CO
+# add wave -label "CO_IN# 
+# <EOF>
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 11:33:09 on May 26,2021, Elapsed time: 0:18:20
+# Errors: 0, Warnings: 2
+: 11:15:42 on May 26,2021, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 2

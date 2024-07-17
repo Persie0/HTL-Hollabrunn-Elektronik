@@ -1,0 +1,130 @@
+# do tb_CSA16.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# Name of test bench entity
+# set TestBench "tb_CSA16"
+# tb_CSA16
+# 
+# Add 
+# vcom -93 -work work {CSA16.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:25 on May 31,2021
+# vcom -reportprogress 300 -93 -work work CSA16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CSA16
+# -- Compiling architecture bdf_type of CSA16
+# End time: 17:26:25 on May 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {CSA4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:25 on May 31,2021
+# vcom -reportprogress 300 -93 -work work CSA4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity CSA4
+# -- Compiling architecture bdf_type of CSA4
+# End time: 17:26:25 on May 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {RippleCarryAdder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:25 on May 31,2021
+# vcom -reportprogress 300 -93 -work work RippleCarryAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture bdf_type of RippleCarryAdder
+# End time: 17:26:25 on May 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {FullAdder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:25 on May 31,2021
+# vcom -reportprogress 300 -93 -work work FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture FullAdder_arch of FullAdder
+# End time: 17:26:25 on May 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {Mux2to1_4Bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:25 on May 31,2021
+# vcom -reportprogress 300 -93 -work work Mux2to1_4Bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2to1_4Bit
+# -- Compiling architecture arch_Mux2to1_4Bit of Mux2to1_4Bit
+# End time: 17:26:25 on May 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {tb_CSA16.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:25 on May 31,2021
+# vcom -reportprogress 300 -93 -work work tb_CSA16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_CSA16
+# -- Compiling architecture CSA16_arch of tb_CSA16
+# End time: 17:26:25 on May 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {Mux2to1.vhd}
+# Model Technology M# 
+# <EOF>
+ntel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:26 on May 31,2021
+# vcom -reportprogress 300 -93 -work work Mux2to1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package# 
+# <EOF>
+1164
+# -- Compiling entity Mux2to1
+# -- Compiling architecture arch_Mux2to1 of Mux2to1
+# End time: 17:26:26 on May 31,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  $TestBench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_CSA16 
+# Start time: 17:26:26 on May 31,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_csa16(csa16_arch)
+# Loading work.csa16(bdf_type)
+# Loading work.csa4(bdf_type)
+# Loading work.ripplecarryadder(bdf_type)
+# Loading work.fulladder(fulladder_arch)
+# Loading work.mux2to1(arch_mux2to1)
+# Loading work.mux2to1_4bit(arch_mux2to1_4bit)
+# 
+#add wave *
+# add wave -label "A" A
+# add wave -label "B" B
+# add wave -label "SUM" SUM
+# add wave -label "CO" CO
+# add wave -label "CI" CI
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 300 ns
+# 
+# wave zoom full
+# 0 ps
+# 315 ns
+# End time: 17:27:06 on May 31,2021, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 0

@@ -1,0 +1,15 @@
+|Inkrementalgeber
+CLK => curState~1.DATAIN
+nRES => curState~3.DATAIN
+A => p_nextstate.IN0
+A => p_nextstate.IN0
+A => p_nextstate.IN0
+A => p_nextstate.IN0
+B => p_nextstate.IN1
+B => p_nextstate.IN1
+B => p_nextstate.IN1
+B => p_nextstate.IN1
+TL << TL.DB_MAX_OUTPUT_PORT_TYPE
+TR << TR.DB_MAX_OUTPUT_PORT_TYPE
+
+

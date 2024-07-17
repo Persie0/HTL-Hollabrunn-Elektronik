@@ -1,0 +1,90 @@
+# Reading pref.tcl
+# do tb_DLatchVSDFF.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# Name of test bench entity
+# set TestBench "tb_DLatchVSDFF"
+# tb_DLatchVSDFF
+# 
+# Add 
+# vcom -93 -work work {DLatch.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:17:40 on Nov 28,2020
+# vcom -reportprogress 300 -93 -work work DLatch.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity D_Latch
+# -- Compiling architecture arch_DLatch of D_Latch
+# End time: 20:17:40 on Nov 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {tb_DLatchVSDFF.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:17:41 on Nov 28,2020
+# vcom -reportprogress 300 -93 -work work tb_DLatchVSDFF.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_DLatchVSDFF
+# -- Compiling architecture DLatchVSDFF_arch of tb_DLatchVSDFF
+# End time: 20:17:41 on Nov 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {DFF.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:17:42 on Nov 28,2020
+# vcom -reportprogress 300 -93 -work work DFF.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity D_FF
+# -- Compiling architecture arch_DFF of D_FF
+# End time: 20:17:42 on Nov 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {DLatchVSDFF.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:17:42 on Nov 28,2020
+# vcom -reportprogress 300 -93 -work work DLatchVSDFF.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DLatchVSDFF
+# -- Compiling architecture bdf_type of DLatchVSDFF
+# End time: 20:17:42 on Nov 28,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  $TestBench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_DLatchVSDFF 
+# Start time: 20:17:42 on Nov 28,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_dlatchvsdff(dlatchvsdff_arch)
+# Loading work.dlatchvsdff(bdf_type)
+# Loading work.d_ff(arch_dff)
+# Loading work.d_latch(arch_dlatch)
+# 
+#add wave *
+# add wave -label "Reset" Reset
+# add wave -label "EN_CLK" EN_CLK
+# add wave -label "D" D
+# add wave -label "QFF" QFF
+# add wave -label "QL" QL
+# 
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 400 ns
+# wave zoom full
+# 0 ps
+# 420 ns
+# End time: 20:18:55 on Nov 28,2020, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 0

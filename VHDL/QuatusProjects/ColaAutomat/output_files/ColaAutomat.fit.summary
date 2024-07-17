@@ -1,0 +1,18 @@
+Fitter Status : Successful - Wed Nov 18 11:03:58 2020
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : ColaAutomat
+Top-level Entity Name : ColaAutomat
+Family : MAX 10
+Device : 10M16SAU169C8G
+Timing Models : Final
+Total logic elements : 4 / 15,840 ( < 1 % )
+    Total combinational functions : 4 / 15,840 ( < 1 % )
+    Dedicated logic registers : 2 / 15,840 ( < 1 % )
+Total registers : 2
+Total pins : 5 / 130 ( 4 % )
+Total virtual pins : 0
+Total memory bits : 0 / 562,176 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 90 ( 0 % )
+Total PLLs : 0 / 1 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )

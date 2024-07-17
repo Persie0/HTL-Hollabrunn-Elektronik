@@ -1,0 +1,12 @@
+-- 
+-- DLatch
+-- @author Marvin Perzi
+-- @version 2020-11-08
+--
+
+library IEEE;
+
+use IEEE.std_logic_1164.all;
+
+-- entity declaration
+entity Mux4to1 is

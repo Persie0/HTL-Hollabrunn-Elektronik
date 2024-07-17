@@ -1,0 +1,174 @@
+|CSA4
+CO <= Mux2to1:inst2.Y
+A[0] => RippleCarryAdder:inst.A[0]
+A[0] => RippleCarryAdder:inst1.A[0]
+A[1] => RippleCarryAdder:inst.A[1]
+A[1] => RippleCarryAdder:inst1.A[1]
+A[2] => RippleCarryAdder:inst.A[2]
+A[2] => RippleCarryAdder:inst1.A[2]
+A[3] => RippleCarryAdder:inst.A[3]
+A[3] => RippleCarryAdder:inst1.A[3]
+B[0] => RippleCarryAdder:inst.B[0]
+B[0] => RippleCarryAdder:inst1.B[0]
+B[1] => RippleCarryAdder:inst.B[1]
+B[1] => RippleCarryAdder:inst1.B[1]
+B[2] => RippleCarryAdder:inst.B[2]
+B[2] => RippleCarryAdder:inst1.B[2]
+B[3] => RippleCarryAdder:inst.B[3]
+B[3] => RippleCarryAdder:inst1.B[3]
+CO_IN => Mux2to1:inst2.SET
+CO_IN => Mux2to1_4Bit:inst3.SET
+SUM[0] <= Mux2to1_4Bit:inst3.Y[0]
+SUM[1] <= Mux2to1_4Bit:inst3.Y[1]
+SUM[2] <= Mux2to1_4Bit:inst3.Y[2]
+SUM[3] <= Mux2to1_4Bit:inst3.Y[3]
+
+
+|CSA4|Mux2to1:inst2
+A => Y.DATAB
+B => Y.DATAA
+SET => Y.OUTPUTSELECT
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CSA4|RippleCarryAdder:inst
+CO <= FullAdder:inst4.CO
+CI => FullAdder:inst.CI
+A[0] => FullAdder:inst.A
+A[1] => FullAdder:inst2.A
+A[2] => FullAdder:inst3.A
+A[3] => FullAdder:inst4.A
+B[0] => FullAdder:inst.B
+B[1] => FullAdder:inst2.B
+B[2] => FullAdder:inst3.B
+B[3] => FullAdder:inst4.B
+SUM[0] <= FullAdder:inst.SUM
+SUM[1] <= FullAdder:inst2.SUM
+SUM[2] <= FullAdder:inst3.SUM
+SUM[3] <= FullAdder:inst4.SUM
+
+
+|CSA4|RippleCarryAdder:inst|FullAdder:inst4
+CI => R.IN1
+CI => SUM.IN1
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CSA4|RippleCarryAdder:inst|FullAdder:inst3
+CI => R.IN1
+CI => SUM.IN1
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CSA4|RippleCarryAdder:inst|FullAdder:inst2
+CI => R.IN1
+CI => SUM.IN1
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CSA4|RippleCarryAdder:inst|FullAdder:inst
+CI => R.IN1
+CI => SUM.IN1
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CSA4|RippleCarryAdder:inst1
+CO <= FullAdder:inst4.CO
+CI => FullAdder:inst.CI
+A[0] => FullAdder:inst.A
+A[1] => FullAdder:inst2.A
+A[2] => FullAdder:inst3.A
+A[3] => FullAdder:inst4.A
+B[0] => FullAdder:inst.B
+B[1] => FullAdder:inst2.B
+B[2] => FullAdder:inst3.B
+B[3] => FullAdder:inst4.B
+SUM[0] <= FullAdder:inst.SUM
+SUM[1] <= FullAdder:inst2.SUM
+SUM[2] <= FullAdder:inst3.SUM
+SUM[3] <= FullAdder:inst4.SUM
+
+
+|CSA4|RippleCarryAdder:inst1|FullAdder:inst4
+CI => R.IN1
+CI => SUM.IN1
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CSA4|RippleCarryAdder:inst1|FullAdder:inst3
+CI => R.IN1
+CI => SUM.IN1
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CSA4|RippleCarryAdder:inst1|FullAdder:inst2
+CI => R.IN1
+CI => SUM.IN1
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CSA4|RippleCarryAdder:inst1|FullAdder:inst
+CI => R.IN1
+CI => SUM.IN1
+A => G.IN0
+A => P.IN0
+B => G.IN1
+B => P.IN1
+SUM <= SUM.DB_MAX_OUTPUT_PORT_TYPE
+CO <= CO.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CSA4|Mux2to1_4Bit:inst3
+A[0] => Y.DATAB
+A[1] => Y.DATAB
+A[2] => Y.DATAB
+A[3] => Y.DATAB
+B[0] => Y.DATAA
+B[1] => Y.DATAA
+B[2] => Y.DATAA
+B[3] => Y.DATAA
+SET => Y.OUTPUTSELECT
+SET => Y.OUTPUTSELECT
+SET => Y.OUTPUTSELECT
+SET => Y.OUTPUTSELECT
+Y[0] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+

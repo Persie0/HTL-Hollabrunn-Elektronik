@@ -1,0 +1,69 @@
+# do tb_FasterWins.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# Name of test bench entity
+# set TestBench "tb_FasterWins"
+# tb_FasterWins
+# 
+# Add 
+# vcom -93 -work work {tb_FasterWins.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:19:46 on Apr 28,2021
+# vcom -reportprogress 300 -93 -work work tb_FasterWins.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FasterWins_vhd_tst
+# -- Compiling architecture FasterWins_arch of FasterWins_vhd_tst
+# End time: 11:19:46 on Apr 28,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {FasterWins.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:19:46 on Apr 28,2021
+# vcom -reportprogress 300 -93 -work work FasterWins.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FasterWins
+# -- Compiling architecture bdf_type of FasterWins
+# End time: 11:19:46 on Apr 28,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {GameLogic.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:19:46 on Apr 28,2021
+# vcom -reportprogress 300 -93 -work work GameLogic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity GameLogic
+# -- Compiling architecture GameLogic_arch of GameLogic
+# End time: 11:19:46 on Apr 28,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  $TestBench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_FasterWins 
+# Start time: 11:19:46 on Apr 28,2021
+# ** Error: (vsim-3170) Could not find 'tb_FasterWins'.
+#         Searched libraries:
+#             /home/persie/Quatus/modelsim_ase/altera/vhdl/altera
+#             /home/persie/Quatus/modelsim_ase/altera/vhdl/220model
+#             /home/persie/Quatus/modelsim_ase/altera/vhdl/sgate
+#             /home/persie/Quatus/modelsim_ase/altera/vhdl/altera_mf
+#             /home/persie/Quatus/modelsim_ase/altera/vhdl/altera_lnsim
+#             /home/persie/Quatus/modelsim_ase/altera/vhdl/fiftyfivenm
+#             /home/persie/QuatusProjects/FasterWins/rtl_work
+#             /home/persie/QuatusProjects/FasterWins/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./tb_FasterWins.do PAUSED at line 20
+# End time: 11:20:02 on Apr 28,2021, Elapsed time: 0:00:16
+# Errors: 1, Warnings: 0

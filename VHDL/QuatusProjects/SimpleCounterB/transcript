@@ -1,0 +1,142 @@
+# Reading pref.tcl
+# do tb_SimpleCounter.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# Name of test bench entity
+# set TestBench "tb_SimpleCounter"
+# tb_SimpleCounter
+# 
+# Add 
+# vcom -93 -work work {SimpleCounter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:04:08 on Nov 04,2020
+# vcom -reportprogress 300 -93 -work work SimpleCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleCounter
+# -- Compiling architecture bdf_type of SimpleCounter
+# End time: 10:04:08 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {tb_SimpleCounter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:04:08 on Nov 04,2020
+# vcom -reportprogress 300 -93 -work work tb_SimpleCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_SimpleCounter
+# -- Compiling architecture tb_SimpleCounter_arch of tb_SimpleCounter
+# End time: 10:04:09 on Nov 04,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  $TestBench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_SimpleCounter 
+# Start time: 10:04:09 on Nov 04,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_simplecounter(tb_simplecounter_arch)
+# Loading work.simplecounter(bdf_type)
+# 
+#add wave *
+# add wave -label "RESET" RESET
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: marvi  Hostname: MP  ProcessID: 2868
+#           Attempting to use alternate WLF file "./wlft0m0xm2".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0m0xm2
+# add wave -label "CLK" CLK
+# add wave -label "Q1" Q1
+# add wave -label "Q0" Q0
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# wave zoom full
+# 0 ps
+# 210 ns
+do tb_SimpleCounter.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# Name of test bench entity
+# set TestBench "tb_SimpleCounter"
+# tb_SimpleCounter
+# 
+# Add 
+# vcom -93 -work work {SimpleCounter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:42 on Nov 04,2020
+# vcom -reportprogress 300 -93 -work work SimpleCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleCounter
+# -- Compiling architecture bdf_type of SimpleCounter
+# End time: 10:22:42 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {tb_SimpleCounter.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:42 on Nov 04,2020
+# vcom -reportprogress 300 -93 -work work tb_SimpleCounter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_SimpleCounter
+# -- Compiling architecture tb_SimpleCounter_arch of tb_SimpleCounter
+# End time: 10:22:42 on Nov 04,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  $TestBench
+# End time: 10:22:46 on Nov 04,2020, Elapsed time: 0:18:37
+# Errors: 0, Warnings: 2
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_SimpleCounter 
+# Start time: 10:22:46 on Nov 04,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_simplecounter(tb_simplecounter_arch)
+# Loading work.simplecounter(bdf_type)
+# 
+#add wave *
+# add wave -label "RESET" RESET
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: marvi  Hostname: MP  ProcessID: 2868
+#           Attempting to use alternate WLF file "./wlft3mewhe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft3mewhe
+# add wave -label "CLK" CLK
+# add wave -label "Q1" Q1
+# add wave -label "Q0" Q0
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# wave zoom full
+# 0 ps
+# 210 ns
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 400ns
+# End time: 10:25:51 on Nov 04,2020, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 0

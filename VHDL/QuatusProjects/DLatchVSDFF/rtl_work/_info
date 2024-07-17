@@ -1,0 +1,175 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/marvi/OneDrive/Dokumente/3BHEL/DIC/DLatchVSDFF
+Ed_ff
+Z1 w1606587012
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z4 8DFF.vhd
+Z5 FDFF.vhd
+l0
+L11 1
+V]=^?JiSNLHMTKP3]G:U[12
+!s100 `5W63_XCAULQiJUE_>OFN1
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1606591062
+!i10b 1
+Z8 !s108 1606591062.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|DFF.vhd|
+Z10 !s107 DFF.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aarch_dff
+R2
+R3
+DEx4 work 4 d_ff 0 22 ]=^?JiSNLHMTKP3]G:U[12
+!i122 2
+l19
+L18 11
+VFbzIVOc@ZCJA]V2c3SK9T3
+!s100 K>1jcQHHi64C<JRmJfcOQ2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ed_latch
+Z13 w1606590199
+R2
+R3
+!i122 0
+R0
+Z14 8DLatch.vhd
+Z15 FDLatch.vhd
+l0
+L12 1
+V7]8?ae11WH^iXP^Bz`Y8h1
+!s100 WRL:;1@G2]o@TD7b7d7b22
+R6
+31
+Z16 !s110 1606591060
+!i10b 1
+Z17 !s108 1606591060.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|DLatch.vhd|
+Z19 !s107 DLatch.vhd|
+!i113 1
+R11
+R12
+Aarch_dlatch
+R2
+R3
+DEx4 work 7 d_latch 0 22 7]8?ae11WH^iXP^Bz`Y8h1
+!i122 0
+l20
+L19 11
+VE3JhIhIMd<HTlQLLe_YhV1
+!s100 1cLa89>C6;[8[HI0FB^H51
+R6
+31
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Edlatchvsdff
+Z20 w1606588896
+R2
+R3
+!i122 3
+R0
+Z21 8DLatchVSDFF.vhd
+Z22 FDLatchVSDFF.vhd
+l0
+L25 1
+VO[C4kBMZH6[2Ne<R9GXSJ1
+!s100 :n@o6?E=>E<gLD7_0ENNd3
+R6
+31
+R7
+!i10b 1
+R8
+Z23 !s90 -reportprogress|300|-93|-work|work|DLatchVSDFF.vhd|
+!s107 DLatchVSDFF.vhd|
+!i113 1
+R11
+R12
+Abdf_type
+R2
+R3
+DEx4 work 11 dlatchvsdff 0 22 O[C4kBMZH6[2Ne<R9GXSJ1
+!i122 3
+l56
+L36 39
+V@<J]@?DVzRPDV>m10Q`XA0
+!s100 BnB6T5Ijo;W^hcD8a]JZ71
+R6
+31
+R7
+!i10b 1
+R8
+R23
+Z24 !s107 DLatchVSDFF.vhd|
+!i113 1
+R11
+R12
+Etb_dlatchvsdff
+Z25 w1606591035
+R2
+R3
+!i122 1
+R0
+Z26 8tb_DLatchVSDFF.vhd
+Z27 Ftb_DLatchVSDFF.vhd
+l0
+L10 1
+VI<NLK]L_j8jEG>8Tmm5LS2
+!s100 h5_>^m1bo1ncIF;SC_Z_c1
+R6
+31
+Z28 !s110 1606591061
+!i10b 1
+Z29 !s108 1606591061.000000
+Z30 !s90 -reportprogress|300|-93|-work|work|tb_DLatchVSDFF.vhd|
+Z31 !s107 tb_DLatchVSDFF.vhd|
+!i113 1
+R11
+R12
+Adlatchvsdff_arch
+R2
+R3
+DEx4 work 14 tb_dlatchvsdff 0 22 I<NLK]L_j8jEG>8Tmm5LS2
+!i122 1
+l34
+L13 71
+V@NTDGeTEJTmMmdkTk4jfM3
+!s100 dRJMIC[Sfnkmc1=baL60J3
+R6
+31
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R11
+R12

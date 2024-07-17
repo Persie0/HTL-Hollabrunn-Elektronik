@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/marvi/OneDrive/Dokumente/3BHEL/DIC/SimpleCounterB
+Esimplecounter
+Z1 w1603264652
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8SimpleCounter.vhd
+Z5 FSimpleCounter.vhd
+l0
+L25 1
+Vckfhk2GRZFG:kZegU4INW0
+!s100 8WfSn6LljODW8ko[:bZ4c0
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1604481762
+!i10b 1
+Z8 !s108 1604481762.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|SimpleCounter.vhd|
+Z10 !s107 SimpleCounter.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abdf_type
+R2
+R3
+DEx4 work 13 simplecounter 0 22 ckfhk2GRZFG:kZegU4INW0
+!i122 0
+l45
+L35 52
+VcCbgj54>1gZb2[8z3k[BD2
+!s100 R]D9VY44eVcjmJTn;>FjW3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_simplecounter
+Z13 w1603264748
+R2
+R3
+!i122 1
+R0
+Z14 8tb_SimpleCounter.vhd
+Z15 Ftb_SimpleCounter.vhd
+l0
+L8 1
+VYWcX?C^Gf>Dk3ACoX1>Y^0
+!s100 dMfA6Nfgeg[nXXN:CRl782
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|tb_SimpleCounter.vhd|
+!s107 tb_SimpleCounter.vhd|
+!i113 1
+R11
+R12
+Atb_simplecounter_arch
+R2
+R3
+DEx4 work 16 tb_simplecounter 0 22 YWcX?C^Gf>Dk3ACoX1>Y^0
+!i122 1
+l25
+L10 51
+VKO:[8J>?C<`O5;P8KU0d>0
+!s100 @9Jj]ID8fi=]L7=l5V7X00
+R6
+31
+R7
+!i10b 1
+R8
+R16
+Z17 !s107 tb_SimpleCounter.vhd|
+!i113 1
+R11
+R12

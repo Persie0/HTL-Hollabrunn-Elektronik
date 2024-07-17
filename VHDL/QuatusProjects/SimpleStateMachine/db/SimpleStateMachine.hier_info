@@ -1,0 +1,9 @@
+|SimpleStateMachine
+CLK => curState~1.DATAIN
+nRES => curState~3.DATAIN
+S => nextState.sLEFT.DATAA
+S => Selector0.IN1
+WHEEL_L << WHEEL_L$latch.DB_MAX_OUTPUT_PORT_TYPE
+WHEEL_R << WHEEL_R$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,68 @@
+# Reading pref.tcl
+# do tb_SimpleStateMachine.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# Name of test bench entity
+# set TestBench "tb_SimpleStateMachine"
+# tb_SimpleStateMachine
+# 
+# Add 
+# vcom -93 -work work {SimpleStateMachine.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:12:20 on Jan 27,2021
+# vcom -reportprogress 300 -93 -work work SimpleStateMachine.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SimpleStateMachine
+# -- Compiling architecture SimpleStateMachine_arch of SimpleStateMachine
+# End time: 10:12:21 on Jan 27,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {tb_SimpleStateMachine.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:12:21 on Jan 27,2021
+# vcom -reportprogress 300 -93 -work work tb_SimpleStateMachine.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_SimpleStateMachine
+# -- Compiling architecture tb_SimpleStateMachine_arch of tb_SimpleStateMachine
+# End time: 10:12:21 on Jan 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  $TestBench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_SimpleStateMachine 
+# Start time: 10:12:21 on Jan 27,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_simplestatemachine(tb_simplestatemachine_arch)
+# Loading work.simplestatemachine(simplestatemachine_arch)
+# 
+#add wave *
+# add wave -label "nRES" nRES
+# add wave -label "CLK" CLK
+# add wave -label "S" S
+# add wave -label "WHEEL_L" WHEEL_L
+# add wave -label "WHEEL_R" WHEEL_R
+# add wave -label "curState" tb_simplestatemachine/i1/curState
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# 
+# wave zoom full
+# 0 ps
+# 210 ns
+# End time: 10:20:33 on Jan 27,2021, Elapsed time: 0:08:12
+# Errors: 0, Warnings: 0

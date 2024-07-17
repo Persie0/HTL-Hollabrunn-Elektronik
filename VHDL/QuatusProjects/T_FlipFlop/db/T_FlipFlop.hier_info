@@ -1,0 +1,10 @@
+|T_FlipFlop
+CLk => Ausgang.CLK
+CLk => Q~reg0.CLK
+nRES => Ausgang.ACLR
+nRES => Q~reg0.ACLR
+T => p_register.IN1
+T => p_register.IN1
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

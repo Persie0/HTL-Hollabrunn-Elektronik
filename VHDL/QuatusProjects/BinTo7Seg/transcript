@@ -1,0 +1,92 @@
+# Reading pref.tcl
+# do tb_BinTo7Seg.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# Name of test bench entity
+# set TestBench "tb_BinTo7Seg"
+# tb_BinTo7Seg
+# 
+# Add 
+# vcom -93 -work work {BinTo7Seg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:28:27 on Dec 21,2020
+# vcom -reportprogress 300 -93 -work work BinTo7Seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity BinTo7Seg
+# -- Compiling architecture BinTo7Seg_arch of BinTo7Seg
+# End time: 14:28:27 on Dec 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {tb_BinTo7Seg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:28:28 on Dec 21,2020
+# vcom -reportprogress 300 -93 -work work tb_BinTo7Seg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_BinTo7Seg
+# -- Compiling architecture tb_BinTo7Seg_arch of tb_BinTo7Seg
+# End time: 14:28:28 on Dec 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  $TestBench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_BinTo7Seg 
+# Start time: 14:28:28 on Dec 21,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_binto7seg(tb_binto7seg_arch)
+# Loading work.binto7seg(binto7seg_arch)
+# 
+# Kombiniertes Signal 'Inputs' erstellen 
+# virtual signal {b3 & b2 & b1 & b0} Inputs 
+# /tb_binto7seg/Inputs
+#  
+# Kombiniertes Signal in Binärkodierung und in Hex- 
+# Kodierung anzeigen 
+# add wave -label "InputsBin" Inputs 
+# add wave -radix hexadecimal -label "InputsHex" Inputs 
+#  
+# add wave -label "b3" b3 
+# add wave -label "b2" b2 
+# add wave -label "b1" b1 
+# add wave -label "b0" b0 
+#  
+# Trennstrich mit Bezeichnung einfügen 
+# add wave -divider Ausgaenge: 
+#  
+# Kombiniertes Signal 'Segments' erstellen 
+# virtual signal {a & b & c & d & e & f & g} Segments 
+# /tb_binto7seg/Segments
+#  
+# Kombiniertes Signal in Binärkodierung anzeigen 
+# add wave -label "Segments" Segments 
+#  
+# add wave -label "a" a 
+# add wave -label "b" b 
+# add wave -label "c" c 
+# add wave -label "d" d 
+# add wave -label "e" e 
+# add wave -label "f" f 
+# add wave -label "g" g 
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 200 ns
+# 
+# wave zoom full
+# 0 ps
+# 210 ns
+# End time: 14:29:20 on Dec 21,2020, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0

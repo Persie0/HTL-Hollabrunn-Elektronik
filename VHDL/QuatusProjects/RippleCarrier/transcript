@@ -1,0 +1,98 @@
+# do tb_RippleCarryAdder.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# Name of test bench entity
+# set TestBench "tb_RippleCarryAdder"
+# tb_RippleCarryAdder
+# 
+# Add 
+# vcom -93 -work work {tb_RippleCarryAdder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:16:32 on Apr 22,2021
+# vcom -reportprogress 300 -93 -work work tb_RippleCarryAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_RippleCarryAdder
+# -- Compiling architecture RippleCarryAdder_arch of tb_RippleCarryAdder
+# End time: 16:16:33 on Apr 22,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {RippleCarryAdder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:16:33 on Apr 22,2021
+# vcom -reportprogress 300 -93 -work work RippleCarryAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RippleCarryAdder
+# -- Compiling architecture bdf_type of RippleCarryAdder
+# End time: 16:16:33 on Apr 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {FullAdder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:16:33 on Apr 22,2021
+# vcom -reportprogress 300 -93 -work work FullAdder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FullAdder
+# -- Compiling architecture FullAdder_arch of FullAdder
+# End time: 16:16:33 on Apr 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  $TestBench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_RippleCarryAdder 
+# Start time: 16:16:33 on Apr 22,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_ripplecarryadder(ripplecarryadder_arch)
+# Loading work.ripplecarryadder(bdf_type)
+# Loading work.fulladder(fulladder_arch)
+# 
+#add wave *
+# add wave -label "A3" A3
+# Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: persie  Hostname: x503vd  ProcessID: 125187
+#           Attemp# 
+# <EOF>
+# End time: 17:00:37 on Apr 22,2021, Elapsed time: 0:44:08
+# Errors: 0, Warnings: 0
+ file: vsim.wlf
+#           Using alternate file: ./wlftR9BDx2
+# add wave -label "A2" A2
+# add wave -label "A1" A1
+# add wave -label "A0" A0
+# add wave -label "B3" B3
+# add wave -label "B2" B2
+# add wave -label "B1" B1
+# add wave -label "B0" B0
+# add wave -label "SUM3" SUM3
+# add wave -label "SUM2" SUM2
+# add wave -label "SUM1" SUM1
+# add wave -label "SUM0" SUM0
+# add wave -label "CO" CO
+#add wave -label "curState" /tb_SimpleStateMachine/i1/curState
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 60 ns
+# 
+# wave zoom full
+# 0 ps
+# 63 ns

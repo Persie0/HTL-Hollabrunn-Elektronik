@@ -1,0 +1,47 @@
+LIBRARY ieee;                                               
+USE ieee.std_logic_1164.all;                                
+
+ENTITY SimpleStateMachine_vhd_tst IS
+END SimpleStateMachine_vhd_tst;
+ARCHITECTURE SimpleStateMachine_arch OF SimpleStateMachine_vhd_tst IS
+-- constants                                                 
+-- signals                                                   
+SIGNAL CLK : STD_LOGIC;
+SIGNAL nRES : STD_LOGIC;
+SIGNAL S : STD_LOGIC;
+SIGNAL WHEEL_L : STD_LOGIC;
+SIGNAL WHEEL_R : STD_LOGIC;
+COMPONENT SimpleStateMachine
+	PORT (
+	CLK : IN STD_LOGIC;
+	nRES : IN STD_LOGIC;
+	S : IN STD_LOGIC;
+	WHEEL_L : OUT STD_LOGIC;
+	WHEEL_R : OUT STD_LOGIC
+	);
+END COMPONENT;
+BEGIN
+	i1 : SimpleStateMachine
+	PORT MAP (
+-- list connections between master ports and signals
+	CLK => CLK,
+	nRES => nRES,
+	S => S,
+	WHEEL_L => WHEEL_L,
+	WHEEL_R => WHEEL_R
+	);
+init : PROCESS                                               
+-- variable declarations                                     
+BEGIN                                                        
+        -- code that executes only once                      
+WAIT;                                                       
+END PROCESS init;                                           
+always : PROCESS                                              
+-- optional sensitivity list                                  
+-- (        )                                                 
+-- variable declarations                                      
+BEGIN                                                         
+        -- code executes for every event on sensitivity list  
+WAIT;                                                        
+END PROCESS always;                                          
+END SimpleStateMachine_arch;

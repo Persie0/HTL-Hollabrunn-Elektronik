@@ -1,0 +1,38 @@
+#
+# Template: A very simple ModelSim Do-File
+#           (prepared for "schematic entry" FPGA design process)
+#
+# @author  Marvin Perzi
+# @version 2020-11-28
+# 
+
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+# Name of test bench entity
+set TestBench "tb_DLatchVSDFF"
+
+# Add 
+vcom -93 -work work {DLatch.vhd}
+vcom -93 -work work {tb_DLatchVSDFF.vhd}
+vcom -93 -work work {DFF.vhd}
+vcom -93 -work work {DLatchVSDFF.vhd}
+
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  $TestBench
+
+#add wave *
+add wave -label "Reset" Reset
+add wave -label "EN_CLK" EN_CLK
+add wave -label "D" D
+add wave -label "QFF" QFF
+add wave -label "QL" QL
+
+
+view structure
+view signals
+run 400 ns
+wave zoom full

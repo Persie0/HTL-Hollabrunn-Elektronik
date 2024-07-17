@@ -1,0 +1,65 @@
+# Reading pref.tcl
+# do tb_EdgeDetection.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# Name of test bench entity
+# set TestBench "tb_EdgeDetection"
+# tb_EdgeDetection
+# 
+# Add 
+# vcom -93 -work work {EdgeDetection.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:46:20 on Jan 20,2021
+# vcom -reportprogress 300 -93 -work work EdgeDetection.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity EdgeDetection
+# -- Compiling architecture EdgeDetection_arch of EdgeDetection
+# End time: 09:46:20 on Jan 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {tb_EdgeDetection.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:46:21 on Jan 20,2021
+# vcom -reportprogress 300 -93 -work work tb_EdgeDetection.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_EdgeDetection
+# -- Compiling architecture EdgeDetection_arch of tb_EdgeDetection
+# End time: 09:46:21 on Jan 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  $TestBench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" tb_EdgeDetection 
+# Start time: 09:46:21 on Jan 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_edgedetection(edgedetection_arch)
+# Loading work.edgedetection(edgedetection_arch)
+# 
+#add wave *
+# add wave -label "nRES" nRES
+# add wave -label "CLk" CLk
+# add wave -label "sigIn" sigIn
+# add wave -label "pulseOut" pulseOut
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns
+# wave zoom full
+# 0 ps
+# 525 ns
+# End time: 09:46:42 on Jan 20,2021, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0

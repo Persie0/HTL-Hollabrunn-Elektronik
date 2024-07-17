@@ -1,0 +1,298 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/persie/QuatusProjects/CSA16
+Ecsa16
+Z1 w1622474706
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8CSA16.vhd
+Z5 FCSA16.vhd
+l0
+Z6 L25 1
+V5LV]bAF>Pz<9n0I4EIVYh1
+!s100 912_1:a2BcPOCIH0>4T^Z2
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1622474785
+!i10b 1
+Z9 !s108 1622474785.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|CSA16.vhd|
+Z11 !s107 CSA16.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abdf_type
+R2
+R3
+DEx4 work 5 csa16 0 22 5LV]bAF>Pz<9n0I4EIVYh1
+!i122 0
+l53
+Z14 L36 55
+V0[SA;gLOeDN]P@loeNBmc1
+!s100 Si65;bZoX8?UD:DJ@FdV72
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecsa4
+Z15 w1622020374
+R2
+R3
+!i122 1
+R0
+Z16 8CSA4.vhd
+Z17 FCSA4.vhd
+l0
+R6
+VOK3mbPRza2lHSQiH7O6fS1
+!s100 IfSEbTgimCV;T9KUZ<M9C0
+R7
+31
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|CSA4.vhd|
+Z19 !s107 CSA4.vhd|
+!i113 1
+R12
+R13
+Abdf_type
+R2
+R3
+DEx4 work 4 csa4 0 22 OK3mbPRza2lHSQiH7O6fS1
+!i122 1
+l71
+L36 74
+V=EzN0OPn4LGN=;4gQ2TJD3
+!s100 7YbZonZoS3zZ?:=;lTFhT3
+R7
+31
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Efulladder
+Z20 w1619161731
+R2
+R3
+!i122 3
+R0
+Z21 8FullAdder.vhd
+Z22 FFullAdder.vhd
+l0
+L11 1
+VF7=g<KzANTiFmNFP0Nl^]1
+!s100 ZLh7J7okBe8dC4J[Ed6l=3
+R7
+31
+R8
+!i10b 1
+R9
+Z23 !s90 -reportprogress|300|-93|-work|work|FullAdder.vhd|
+Z24 !s107 FullAdder.vhd|
+!i113 1
+R12
+R13
+Afulladder_arch
+R2
+R3
+DEx4 work 9 fulladder 0 22 F7=g<KzANTiFmNFP0Nl^]1
+!i122 3
+l25
+L21 12
+VzDf;hdc1<UC^m3gdVCkW@2
+!s100 0DeE99DSVHLJTZ59]DGVC1
+R7
+31
+R8
+!i10b 1
+R9
+R23
+R24
+!i113 1
+R12
+R13
+Emux2to1
+Z25 w1622019602
+R2
+R3
+!i122 6
+R0
+Z26 8Mux2to1.vhd
+Z27 FMux2to1.vhd
+l0
+Z28 L12 1
+VKmLVBzlNgn:F:X_^bjebA1
+!s100 1Bi^YRVmhS>AJd1fHHm8]2
+R7
+31
+Z29 !s110 1622474786
+!i10b 1
+Z30 !s108 1622474786.000000
+Z31 !s90 -reportprogress|300|-93|-work|work|Mux2to1.vhd|
+!s107 Mux2to1.vhd|
+!i113 1
+R12
+R13
+Aarch_mux2to1
+R2
+R3
+DEx4 work 7 mux2to1 0 22 KmLVBzlNgn:F:X_^bjebA1
+!i122 6
+l22
+L21 6
+V1DeTXli[WKnV^<JD:77W31
+!s100 meDzmDNEhF8^:h[Qz7ZmA3
+R7
+31
+R29
+!i10b 1
+R30
+R31
+Z32 !s107 Mux2to1.vhd|
+!i113 1
+R12
+R13
+Emux2to1_4bit
+Z33 w1622019588
+R2
+R3
+!i122 4
+R0
+Z34 8Mux2to1_4Bit.vhd
+Z35 FMux2to1_4Bit.vhd
+l0
+R28
+VX`N=2mg^Bbmi]YLRidR6S0
+!s100 8R<@>h6<Yn_czL;cdKd:i0
+R7
+31
+R8
+!i10b 1
+R9
+Z36 !s90 -reportprogress|300|-93|-work|work|Mux2to1_4Bit.vhd|
+Z37 !s107 Mux2to1_4Bit.vhd|
+!i113 1
+R12
+R13
+Aarch_mux2to1_4bit
+R2
+R3
+DEx4 work 12 mux2to1_4bit 0 22 X`N=2mg^Bbmi]YLRidR6S0
+!i122 4
+l22
+L21 5
+VHX03Zk>]fWP5aCYTK4Pl:3
+!s100 EX9D^K11FX<Pm@3NhB`Wo1
+R7
+31
+R8
+!i10b 1
+R9
+R36
+R37
+!i113 1
+R12
+R13
+Eripplecarryadder
+Z38 w1622020373
+R2
+R3
+!i122 2
+R0
+Z39 8RippleCarryAdder.vhd
+Z40 FRippleCarryAdder.vhd
+l0
+R6
+VE6;1J]8o03T3R;]C3CH662
+!s100 ^GjdIjQ??MN;c4>hjF;8N3
+R7
+31
+R8
+!i10b 1
+R9
+Z41 !s90 -reportprogress|300|-93|-work|work|RippleCarryAdder.vhd|
+Z42 !s107 RippleCarryAdder.vhd|
+!i113 1
+R12
+R13
+Abdf_type
+R2
+R3
+DEx4 work 16 ripplecarryadder 0 22 E6;1J]8o03T3R;]C3CH662
+!i122 2
+l53
+R14
+V^CnJ@>ioLVC@@MGoCj65b2
+!s100 9YYAGjGBcFLC=586mZhRi3
+R7
+31
+R8
+!i10b 1
+R9
+R41
+R42
+!i113 1
+R12
+R13
+Etb_csa16
+Z43 w1622474784
+R2
+R3
+!i122 5
+R0
+Z44 8tb_CSA16.vhd
+Z45 Ftb_CSA16.vhd
+l0
+L31 1
+VJNDkVT[GKmdX[4>kWYK<V2
+!s100 1`JbL@959GJ[E=W>glGC_1
+R7
+31
+R8
+!i10b 1
+R9
+Z46 !s90 -reportprogress|300|-93|-work|work|tb_CSA16.vhd|
+Z47 !s107 tb_CSA16.vhd|
+!i113 1
+R12
+R13
+Acsa16_arch
+R2
+R3
+DEx4 work 8 tb_csa16 0 22 JNDkVT[GKmdX[4>kWYK<V2
+!i122 5
+l50
+L33 41
+V^X:LWLAdFD7MRCT2NeYP02
+!s100 8dU0j@hD1HWFjX_^6zdYN1
+R7
+31
+R8
+!i10b 1
+R9
+R46
+R47
+!i113 1
+R12
+R13

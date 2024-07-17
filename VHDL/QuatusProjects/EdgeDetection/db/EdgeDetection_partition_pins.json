@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pulseOut",
+					"strict" : false
+				},
+				{
+					"name" : "nRES",
+					"strict" : false
+				},
+				{
+					"name" : "sigIn",
+					"strict" : false
+				},
+				{
+					"name" : "CLk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
